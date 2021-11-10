@@ -14,6 +14,16 @@
 		74F04C32273A686400D2FF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F04C30273A686400D2FF50 /* LaunchScreen.storyboard */; };
 		74F04C55273B583D00D2FF50 /* FluctSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C54273B583D00D2FF50 /* FluctSDK.xcframework */; };
 		74F04C57273B584600D2FF50 /* FluctSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74F04C56273B584600D2FF50 /* FluctSDKResources.bundle */; };
+		74F04C5A273B5DA800D2FF50 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C59273B5DA800D2FF50 /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		74F04C5C273B5DB400D2FF50 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C5B273B5DB400D2FF50 /* CoreTelephony.framework */; };
+		74F04C5E273B5DBD00D2FF50 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C5D273B5DBD00D2FF50 /* MediaPlayer.framework */; };
+		74F04C60273B5DC300D2FF50 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C5F273B5DC300D2FF50 /* CoreMedia.framework */; };
+		74F04C62273B5DC900D2FF50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C61273B5DC900D2FF50 /* SystemConfiguration.framework */; };
+		74F04C64273B5DD000D2FF50 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C63273B5DD000D2FF50 /* StoreKit.framework */; };
+		74F04C66273B5DD700D2FF50 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C65273B5DD700D2FF50 /* Social.framework */; };
+		74F04C68273B5DDD00D2FF50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C67273B5DDD00D2FF50 /* AVFoundation.framework */; };
+		74F04C6A273B5DE400D2FF50 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C69273B5DE400D2FF50 /* WebKit.framework */; };
+		74F04C6C273B5DEB00D2FF50 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C6B273B5DEB00D2FF50 /* AppTrackingTransparency.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,16 @@
 		74F04C33273A686400D2FF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74F04C54273B583D00D2FF50 /* FluctSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FluctSDK.xcframework; sourceTree = "<group>"; };
 		74F04C56273B584600D2FF50 /* FluctSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FluctSDKResources.bundle; sourceTree = "<group>"; };
+		74F04C59273B5DA800D2FF50 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		74F04C5B273B5DB400D2FF50 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		74F04C5D273B5DBD00D2FF50 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		74F04C5F273B5DC300D2FF50 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		74F04C61273B5DC900D2FF50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		74F04C63273B5DD000D2FF50 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		74F04C65273B5DD700D2FF50 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		74F04C67273B5DDD00D2FF50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		74F04C69273B5DE400D2FF50 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		74F04C6B273B5DEB00D2FF50 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F04C6C273B5DEB00D2FF50 /* AppTrackingTransparency.framework in Frameworks */,
+				74F04C6A273B5DE400D2FF50 /* WebKit.framework in Frameworks */,
+				74F04C68273B5DDD00D2FF50 /* AVFoundation.framework in Frameworks */,
+				74F04C66273B5DD700D2FF50 /* Social.framework in Frameworks */,
+				74F04C64273B5DD000D2FF50 /* StoreKit.framework in Frameworks */,
+				74F04C62273B5DC900D2FF50 /* SystemConfiguration.framework in Frameworks */,
+				74F04C60273B5DC300D2FF50 /* CoreMedia.framework in Frameworks */,
+				74F04C5E273B5DBD00D2FF50 /* MediaPlayer.framework in Frameworks */,
+				74F04C5C273B5DB400D2FF50 /* CoreTelephony.framework in Frameworks */,
+				74F04C5A273B5DA800D2FF50 /* AdSupport.framework in Frameworks */,
 				74F04C55273B583D00D2FF50 /* FluctSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +75,7 @@
 			children = (
 				74F04C24273A686100D2FF50 /* ManualInstalling */,
 				74F04C23273A686100D2FF50 /* Products */,
+				74F04C58273B5DA700D2FF50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +100,23 @@
 				74F04C33273A686400D2FF50 /* Info.plist */,
 			);
 			path = ManualInstalling;
+			sourceTree = "<group>";
+		};
+		74F04C58273B5DA700D2FF50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F04C6B273B5DEB00D2FF50 /* AppTrackingTransparency.framework */,
+				74F04C69273B5DE400D2FF50 /* WebKit.framework */,
+				74F04C67273B5DDD00D2FF50 /* AVFoundation.framework */,
+				74F04C65273B5DD700D2FF50 /* Social.framework */,
+				74F04C63273B5DD000D2FF50 /* StoreKit.framework */,
+				74F04C61273B5DC900D2FF50 /* SystemConfiguration.framework */,
+				74F04C5F273B5DC300D2FF50 /* CoreMedia.framework */,
+				74F04C5D273B5DBD00D2FF50 /* MediaPlayer.framework */,
+				74F04C5B273B5DB400D2FF50 /* CoreTelephony.framework */,
+				74F04C59273B5DA800D2FF50 /* AdSupport.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
