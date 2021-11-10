@@ -24,6 +24,12 @@
 		74F04C68273B5DDD00D2FF50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C67273B5DDD00D2FF50 /* AVFoundation.framework */; };
 		74F04C6A273B5DE400D2FF50 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C69273B5DE400D2FF50 /* WebKit.framework */; };
 		74F04C6C273B5DEB00D2FF50 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C6B273B5DEB00D2FF50 /* AppTrackingTransparency.framework */; };
+		74F04C6E273B62D500D2FF50 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C6D273B62D500D2FF50 /* GoogleAppMeasurement.xcframework */; };
+		74F04C70273B62E600D2FF50 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C6F273B62E600D2FF50 /* GoogleMobileAds.xcframework */; };
+		74F04C72273B62F300D2FF50 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C71273B62F300D2FF50 /* GoogleUtilities.xcframework */; };
+		74F04C74273B630B00D2FF50 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C73273B630A00D2FF50 /* nanopb.xcframework */; };
+		74F04C76273B631B00D2FF50 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C75273B631B00D2FF50 /* PromisesObjC.xcframework */; };
+		74F04C78273B632E00D2FF50 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C77273B632E00D2FF50 /* UserMessagingPlatform.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +52,12 @@
 		74F04C67273B5DDD00D2FF50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		74F04C69273B5DE400D2FF50 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		74F04C6B273B5DEB00D2FF50 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		74F04C6D273B62D500D2FF50 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		74F04C6F273B62E600D2FF50 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		74F04C71273B62F300D2FF50 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		74F04C73273B630A00D2FF50 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		74F04C75273B631B00D2FF50 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		74F04C77273B632E00D2FF50 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,16 +66,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				74F04C6C273B5DEB00D2FF50 /* AppTrackingTransparency.framework in Frameworks */,
+				74F04C78273B632E00D2FF50 /* UserMessagingPlatform.xcframework in Frameworks */,
 				74F04C6A273B5DE400D2FF50 /* WebKit.framework in Frameworks */,
 				74F04C68273B5DDD00D2FF50 /* AVFoundation.framework in Frameworks */,
+				74F04C74273B630B00D2FF50 /* nanopb.xcframework in Frameworks */,
 				74F04C66273B5DD700D2FF50 /* Social.framework in Frameworks */,
+				74F04C70273B62E600D2FF50 /* GoogleMobileAds.xcframework in Frameworks */,
 				74F04C64273B5DD000D2FF50 /* StoreKit.framework in Frameworks */,
 				74F04C62273B5DC900D2FF50 /* SystemConfiguration.framework in Frameworks */,
 				74F04C60273B5DC300D2FF50 /* CoreMedia.framework in Frameworks */,
 				74F04C5E273B5DBD00D2FF50 /* MediaPlayer.framework in Frameworks */,
+				74F04C72273B62F300D2FF50 /* GoogleUtilities.xcframework in Frameworks */,
 				74F04C5C273B5DB400D2FF50 /* CoreTelephony.framework in Frameworks */,
 				74F04C5A273B5DA800D2FF50 /* AdSupport.framework in Frameworks */,
+				74F04C6E273B62D500D2FF50 /* GoogleAppMeasurement.xcframework in Frameworks */,
 				74F04C55273B583D00D2FF50 /* FluctSDK.xcframework in Frameworks */,
+				74F04C76273B631B00D2FF50 /* PromisesObjC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +114,12 @@
 				74F04C2E273A686400D2FF50 /* Assets.xcassets */,
 				74F04C30273A686400D2FF50 /* LaunchScreen.storyboard */,
 				74F04C54273B583D00D2FF50 /* FluctSDK.xcframework */,
+				74F04C6D273B62D500D2FF50 /* GoogleAppMeasurement.xcframework */,
+				74F04C6F273B62E600D2FF50 /* GoogleMobileAds.xcframework */,
+				74F04C71273B62F300D2FF50 /* GoogleUtilities.xcframework */,
+				74F04C73273B630A00D2FF50 /* nanopb.xcframework */,
+				74F04C75273B631B00D2FF50 /* PromisesObjC.xcframework */,
+				74F04C77273B632E00D2FF50 /* UserMessagingPlatform.xcframework */,
 				74F04C56273B584600D2FF50 /* FluctSDKResources.bundle */,
 				74F04C33273A686400D2FF50 /* Info.plist */,
 			);
@@ -273,6 +297,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -327,6 +352,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

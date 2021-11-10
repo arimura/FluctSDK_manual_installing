@@ -1,5 +1,7 @@
 # FluctSDK手動インストール手順
 
+1. https://developers.google.com/admob/ios/quick-start でAdMob手動インストールを行う
+
 1. https://github.com/voyagegroup/FluctSDK-iOS から最新のReleaseをダウンロードする
 2. ダウンロードしたzipにある `FluctSDK.embeddedframework/FluctSDK.xcframework`をXcodeにドラッグアンドドロップし、Build PhaseのLink Binary With Librariesに追加する。
 3. ダウンロードしたzipにある `FluctSDK.embeddedframework/Resources/FluctSDKResources.bundle`をXcodeにドラッグアンドドロップし、Build PhaseのCopy Bundle Resourcesに追加する。
