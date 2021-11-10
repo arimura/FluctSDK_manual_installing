@@ -22,7 +22,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         bannerView.delegate = self
         bannerView.load(GADRequest())
 
-          addBannerViewToView(bannerView)
+        addBannerViewToView(bannerView)
     }
 
     func addBannerViewToView(_ bannerView: GADBannerView) {
