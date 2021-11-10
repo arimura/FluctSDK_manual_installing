@@ -30,6 +30,18 @@
 		74F04C74273B630B00D2FF50 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C73273B630A00D2FF50 /* nanopb.xcframework */; };
 		74F04C76273B631B00D2FF50 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C75273B631B00D2FF50 /* PromisesObjC.xcframework */; };
 		74F04C78273B632E00D2FF50 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C77273B632E00D2FF50 /* UserMessagingPlatform.xcframework */; };
+		74F04CE7273B8A1900D2FF50 /* GADVideoInterstitialAdapterFluct.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CCF273B8A1700D2FF50 /* GADVideoInterstitialAdapterFluct.m */; };
+		74F04CE8273B8A1900D2FF50 /* GADBannerAdapterFluctOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CD0273B8A1700D2FF50 /* GADBannerAdapterFluctOptimizer.m */; };
+		74F04CE9273B8A1900D2FF50 /* GADMAdapterFluctExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CD5273B8A1700D2FF50 /* GADMAdapterFluctExtras.m */; };
+		74F04CEA273B8A1900D2FF50 /* GADMAdapterFluctRewardedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CD6273B8A1700D2FF50 /* GADMAdapterFluctRewardedAd.m */; };
+		74F04CEB273B8A1900D2FF50 /* GADBannerAdapterFluctStarter.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CD7273B8A1700D2FF50 /* GADBannerAdapterFluctStarter.m */; };
+		74F04CEC273B8A1900D2FF50 /* GADBannerAdapterFluct.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CDA273B8A1800D2FF50 /* GADBannerAdapterFluct.m */; };
+		74F04CED273B8A1900D2FF50 /* GADVideoInterstitialAdapterFluctStarter.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CDB273B8A1800D2FF50 /* GADVideoInterstitialAdapterFluctStarter.m */; };
+		74F04CEE273B8A1900D2FF50 /* GADAdapterFluctVideoDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CDF273B8A1800D2FF50 /* GADAdapterFluctVideoDelegateProxy.m */; };
+		74F04CEF273B8A1900D2FF50 /* GADRewardedVideoAdapterFluctOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CE0273B8A1800D2FF50 /* GADRewardedVideoAdapterFluctOptimizer.m */; };
+		74F04CF0273B8A1900D2FF50 /* GADRewardedVideoAdapterFluctStarter.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CE1273B8A1800D2FF50 /* GADRewardedVideoAdapterFluctStarter.m */; };
+		74F04CF1273B8A1900D2FF50 /* GADVideoInterstitialAdapterFluctOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CE4273B8A1800D2FF50 /* GADVideoInterstitialAdapterFluctOptimizer.m */; };
+		74F04CF2273B8A1900D2FF50 /* GADMediationAdapterFluct.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F04CE5273B8A1800D2FF50 /* GADMediationAdapterFluct.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +70,32 @@
 		74F04C73273B630A00D2FF50 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
 		74F04C75273B631B00D2FF50 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
 		74F04C77273B632E00D2FF50 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		74F04CCD273B8A1600D2FF50 /* ManualInstalling-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManualInstalling-Bridging-Header.h"; sourceTree = "<group>"; };
+		74F04CCE273B8A1700D2FF50 /* GADMFluctError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMFluctError.h; sourceTree = "<group>"; };
+		74F04CCF273B8A1700D2FF50 /* GADVideoInterstitialAdapterFluct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADVideoInterstitialAdapterFluct.m; sourceTree = "<group>"; };
+		74F04CD0273B8A1700D2FF50 /* GADBannerAdapterFluctOptimizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADBannerAdapterFluctOptimizer.m; sourceTree = "<group>"; };
+		74F04CD1273B8A1700D2FF50 /* GADVideoInterstitialAdapterFluctOptimizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADVideoInterstitialAdapterFluctOptimizer.h; sourceTree = "<group>"; };
+		74F04CD2273B8A1700D2FF50 /* GADVideoInterstitialAdapterFluctStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADVideoInterstitialAdapterFluctStarter.h; sourceTree = "<group>"; };
+		74F04CD3273B8A1700D2FF50 /* GADBannerAdapterFluctOptimizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerAdapterFluctOptimizer.h; sourceTree = "<group>"; };
+		74F04CD4273B8A1700D2FF50 /* GADRewardedVideoAdapterFluctStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRewardedVideoAdapterFluctStarter.h; sourceTree = "<group>"; };
+		74F04CD5273B8A1700D2FF50 /* GADMAdapterFluctExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADMAdapterFluctExtras.m; sourceTree = "<group>"; };
+		74F04CD6273B8A1700D2FF50 /* GADMAdapterFluctRewardedAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADMAdapterFluctRewardedAd.m; sourceTree = "<group>"; };
+		74F04CD7273B8A1700D2FF50 /* GADBannerAdapterFluctStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADBannerAdapterFluctStarter.m; sourceTree = "<group>"; };
+		74F04CD8273B8A1700D2FF50 /* GADMediationAdapterFluct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMediationAdapterFluct.h; sourceTree = "<group>"; };
+		74F04CD9273B8A1800D2FF50 /* GADRewardedVideoAdapterFluctOptimizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRewardedVideoAdapterFluctOptimizer.h; sourceTree = "<group>"; };
+		74F04CDA273B8A1800D2FF50 /* GADBannerAdapterFluct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADBannerAdapterFluct.m; sourceTree = "<group>"; };
+		74F04CDB273B8A1800D2FF50 /* GADVideoInterstitialAdapterFluctStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADVideoInterstitialAdapterFluctStarter.m; sourceTree = "<group>"; };
+		74F04CDC273B8A1800D2FF50 /* GADMAdapterFluctRewardedAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdapterFluctRewardedAd.h; sourceTree = "<group>"; };
+		74F04CDD273B8A1800D2FF50 /* GADVideoInterstitialAdapterFluct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADVideoInterstitialAdapterFluct.h; sourceTree = "<group>"; };
+		74F04CDE273B8A1800D2FF50 /* GADMAdapterFluctExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdapterFluctExtras.h; sourceTree = "<group>"; };
+		74F04CDF273B8A1800D2FF50 /* GADAdapterFluctVideoDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADAdapterFluctVideoDelegateProxy.m; sourceTree = "<group>"; };
+		74F04CE0273B8A1800D2FF50 /* GADRewardedVideoAdapterFluctOptimizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADRewardedVideoAdapterFluctOptimizer.m; sourceTree = "<group>"; };
+		74F04CE1273B8A1800D2FF50 /* GADRewardedVideoAdapterFluctStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADRewardedVideoAdapterFluctStarter.m; sourceTree = "<group>"; };
+		74F04CE2273B8A1800D2FF50 /* GADAdapterFluctVideoDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdapterFluctVideoDelegateProxy.h; sourceTree = "<group>"; };
+		74F04CE3273B8A1800D2FF50 /* GADBannerAdapterFluct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerAdapterFluct.h; sourceTree = "<group>"; };
+		74F04CE4273B8A1800D2FF50 /* GADVideoInterstitialAdapterFluctOptimizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADVideoInterstitialAdapterFluctOptimizer.m; sourceTree = "<group>"; };
+		74F04CE5273B8A1800D2FF50 /* GADMediationAdapterFluct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADMediationAdapterFluct.m; sourceTree = "<group>"; };
+		74F04CE6273B8A1800D2FF50 /* GADBannerAdapterFluctStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerAdapterFluctStarter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +146,7 @@
 		74F04C24273A686100D2FF50 /* ManualInstalling */ = {
 			isa = PBXGroup;
 			children = (
+				74F04CCC273B89F500D2FF50 /* customevent */,
 				74F04C25273A686100D2FF50 /* AppDelegate.swift */,
 				74F04C29273A686100D2FF50 /* ViewController.swift */,
 				74F04C2B273A686100D2FF50 /* Main.storyboard */,
@@ -143,6 +182,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		74F04CCC273B89F500D2FF50 /* customevent */ = {
+			isa = PBXGroup;
+			children = (
+				74F04CE2273B8A1800D2FF50 /* GADAdapterFluctVideoDelegateProxy.h */,
+				74F04CDF273B8A1800D2FF50 /* GADAdapterFluctVideoDelegateProxy.m */,
+				74F04CE3273B8A1800D2FF50 /* GADBannerAdapterFluct.h */,
+				74F04CDA273B8A1800D2FF50 /* GADBannerAdapterFluct.m */,
+				74F04CD3273B8A1700D2FF50 /* GADBannerAdapterFluctOptimizer.h */,
+				74F04CD0273B8A1700D2FF50 /* GADBannerAdapterFluctOptimizer.m */,
+				74F04CE6273B8A1800D2FF50 /* GADBannerAdapterFluctStarter.h */,
+				74F04CD7273B8A1700D2FF50 /* GADBannerAdapterFluctStarter.m */,
+				74F04CDE273B8A1800D2FF50 /* GADMAdapterFluctExtras.h */,
+				74F04CD5273B8A1700D2FF50 /* GADMAdapterFluctExtras.m */,
+				74F04CDC273B8A1800D2FF50 /* GADMAdapterFluctRewardedAd.h */,
+				74F04CD6273B8A1700D2FF50 /* GADMAdapterFluctRewardedAd.m */,
+				74F04CD8273B8A1700D2FF50 /* GADMediationAdapterFluct.h */,
+				74F04CE5273B8A1800D2FF50 /* GADMediationAdapterFluct.m */,
+				74F04CCE273B8A1700D2FF50 /* GADMFluctError.h */,
+				74F04CD9273B8A1800D2FF50 /* GADRewardedVideoAdapterFluctOptimizer.h */,
+				74F04CE0273B8A1800D2FF50 /* GADRewardedVideoAdapterFluctOptimizer.m */,
+				74F04CD4273B8A1700D2FF50 /* GADRewardedVideoAdapterFluctStarter.h */,
+				74F04CE1273B8A1800D2FF50 /* GADRewardedVideoAdapterFluctStarter.m */,
+				74F04CDD273B8A1800D2FF50 /* GADVideoInterstitialAdapterFluct.h */,
+				74F04CCF273B8A1700D2FF50 /* GADVideoInterstitialAdapterFluct.m */,
+				74F04CD1273B8A1700D2FF50 /* GADVideoInterstitialAdapterFluctOptimizer.h */,
+				74F04CE4273B8A1800D2FF50 /* GADVideoInterstitialAdapterFluctOptimizer.m */,
+				74F04CD2273B8A1700D2FF50 /* GADVideoInterstitialAdapterFluctStarter.h */,
+				74F04CDB273B8A1800D2FF50 /* GADVideoInterstitialAdapterFluctStarter.m */,
+				74F04CCD273B8A1600D2FF50 /* ManualInstalling-Bridging-Header.h */,
+			);
+			path = customevent;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +247,7 @@
 				TargetAttributes = {
 					74F04C21273A686100D2FF50 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -215,8 +288,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F04CEA273B8A1900D2FF50 /* GADMAdapterFluctRewardedAd.m in Sources */,
+				74F04CF0273B8A1900D2FF50 /* GADRewardedVideoAdapterFluctStarter.m in Sources */,
+				74F04CED273B8A1900D2FF50 /* GADVideoInterstitialAdapterFluctStarter.m in Sources */,
 				74F04C2A273A686100D2FF50 /* ViewController.swift in Sources */,
+				74F04CE9273B8A1900D2FF50 /* GADMAdapterFluctExtras.m in Sources */,
+				74F04CEC273B8A1900D2FF50 /* GADBannerAdapterFluct.m in Sources */,
+				74F04CF2273B8A1900D2FF50 /* GADMediationAdapterFluct.m in Sources */,
+				74F04CE7273B8A1900D2FF50 /* GADVideoInterstitialAdapterFluct.m in Sources */,
+				74F04CE8273B8A1900D2FF50 /* GADBannerAdapterFluctOptimizer.m in Sources */,
+				74F04CEB273B8A1900D2FF50 /* GADBannerAdapterFluctStarter.m in Sources */,
+				74F04CF1273B8A1900D2FF50 /* GADVideoInterstitialAdapterFluctOptimizer.m in Sources */,
 				74F04C26273A686100D2FF50 /* AppDelegate.swift in Sources */,
+				74F04CEF273B8A1900D2FF50 /* GADRewardedVideoAdapterFluctOptimizer.m in Sources */,
+				74F04CEE273B8A1900D2FF50 /* GADAdapterFluctVideoDelegateProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5957UHEQ5V;
@@ -383,6 +469,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arimura6.ManualInstalling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ManualInstalling/customevent/ManualInstalling-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -393,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5957UHEQ5V;
@@ -411,6 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arimura6.ManualInstalling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ManualInstalling/customevent/ManualInstalling-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
