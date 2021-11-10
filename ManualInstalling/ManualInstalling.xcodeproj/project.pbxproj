@@ -12,6 +12,8 @@
 		74F04C2D273A686100D2FF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F04C2B273A686100D2FF50 /* Main.storyboard */; };
 		74F04C2F273A686400D2FF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F04C2E273A686400D2FF50 /* Assets.xcassets */; };
 		74F04C32273A686400D2FF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F04C30273A686400D2FF50 /* LaunchScreen.storyboard */; };
+		74F04C55273B583D00D2FF50 /* FluctSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F04C54273B583D00D2FF50 /* FluctSDK.xcframework */; };
+		74F04C57273B584600D2FF50 /* FluctSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74F04C56273B584600D2FF50 /* FluctSDKResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		74F04C2E273A686400D2FF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74F04C31273A686400D2FF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74F04C33273A686400D2FF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F04C54273B583D00D2FF50 /* FluctSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FluctSDK.xcframework; sourceTree = "<group>"; };
+		74F04C56273B584600D2FF50 /* FluctSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FluctSDKResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F04C55273B583D00D2FF50 /* FluctSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,8 @@
 				74F04C2B273A686100D2FF50 /* Main.storyboard */,
 				74F04C2E273A686400D2FF50 /* Assets.xcassets */,
 				74F04C30273A686400D2FF50 /* LaunchScreen.storyboard */,
+				74F04C54273B583D00D2FF50 /* FluctSDK.xcframework */,
+				74F04C56273B584600D2FF50 /* FluctSDKResources.bundle */,
 				74F04C33273A686400D2FF50 /* Info.plist */,
 			);
 			path = ManualInstalling;
@@ -125,6 +132,7 @@
 				74F04C32273A686400D2FF50 /* LaunchScreen.storyboard in Resources */,
 				74F04C2F273A686400D2FF50 /* Assets.xcassets in Resources */,
 				74F04C2D273A686100D2FF50 /* Main.storyboard in Resources */,
+				74F04C57273B584600D2FF50 /* FluctSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
