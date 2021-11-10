@@ -7,68 +7,66 @@
 
 import UIKit
 import FluctSDK
+import GoogleMobileAds
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GADBannerViewDelegate {
+    var bannerView: GADBannerView!
 
-//    private var adView: FSSAdView?
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//        // Viewの生成
-//        let adView = FSSAdView(groupId: "1000055927", unitId: "1000084701", adSize: FSSAdSize320x50)
-//        adView.delegate = self
-//        self.view.addSubview(adView)
-//
-//        // 広告の読み込み
-//        // addSubviewした後にloadAd()を実行してください
-//        adView.loadAd()
-//
-//        self.adView = adView
-//    }
-//
-//    override func viewDidLayoutSubviews() {
-//        super.viewDidLayoutSubviews()
-//
-//        // 画面下、中央に表示するため座標計算
-//        let adViewHeight = self.adView?.frame.height ?? 0.0
-//        let maxY = self.view.bounds.maxY
-//        let adViewY = maxY - self.view.layoutMargins.bottom - adViewHeight
-//
-//        let adViewWidth = self.adView?.frame.width ?? 0.0
-//        let midX = self.view.bounds.midX
-//        let adViewX = midX - adViewWidth * 0.5
-//
-//        var frame = adView?.frame ?? .zero
-//        frame.origin = CGPoint(x: adViewX, y: adViewY)
-//        adView?.frame = frame
-//    }
-//
-//    // MARK: - FSSAdViewDelegate
-//
-//    func adViewDidStoreAd(_ adView: FSSAdView) {
-//        print("広告表示が完了しました")
-//    }
-//
-//    func adView(_ adView: FSSAdView, didFailToStoreAdWithError error: Error) {
-//        print(error.localizedDescription)
-//        let fluctError = FSSAdViewError(rawValue: (error as NSError).code) ?? .unknown
-//        switch fluctError {
-//        case .unknown:
-//            print("Unkown Error")
-//        case .notConnectedToInternet:
-//            print("ネットワークエラー")
-//        case .serverError:
-//            print("サーバーエラー")
-//        case .noAds:
-//            print("表示する広告がありません")
-//        case .badRequest:
-//            print("グループID / ユニットID / 登録されているbundleのどれかが間違っています")
-//        }
-//    }
-//
-//    func willLeaveApplicationForAdView(_ adView: FSSAdView) {
-//        print("広告へ遷移します")
-//    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
+        // In this case, we instantiate the banner with desired ad size.
+        bannerView = GADBannerView(adSize: GADAdSizeBanner)
+        bannerView.adUnitID = "ca-app-pub-2222899768110117/4785823321"
+        bannerView.rootViewController = self
+        bannerView.delegate = self
+        bannerView.load(GADRequest())
+
+          addBannerViewToView(bannerView)
+    }
+
+    func addBannerViewToView(_ bannerView: GADBannerView) {
+       bannerView.translatesAutoresizingMaskIntoConstraints = false
+       view.addSubview(bannerView)
+       view.addConstraints(
+         [NSLayoutConstraint(item: bannerView,
+                             attribute: .bottom,
+                             relatedBy: .equal,
+                             toItem: bottomLayoutGuide,
+                             attribute: .top,
+                             multiplier: 1,
+                             constant: 0),
+          NSLayoutConstraint(item: bannerView,
+                             attribute: .centerX,
+                             relatedBy: .equal,
+                             toItem: view,
+                             attribute: .centerX,
+                             multiplier: 1,
+                             constant: 0)
+         ])
+      }
+
+    func bannerViewDidReceiveAd(_ bannerView: GADBannerView) {
+      print("bannerViewDidReceiveAd")
+    }
+
+    func bannerView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: Error) {
+      print("bannerView:didFailToReceiveAdWithError: \(error.localizedDescription)")
+    }
+
+    func bannerViewDidRecordImpression(_ bannerView: GADBannerView) {
+      print("bannerViewDidRecordImpression")
+    }
+
+    func bannerViewWillPresentScreen(_ bannerView: GADBannerView) {
+      print("bannerViewWillPresentScreen")
+    }
+
+    func bannerViewWillDismissScreen(_ bannerView: GADBannerView) {
+      print("bannerViewWillDIsmissScreen")
+    }
+
+    func bannerViewDidDismissScreen(_ bannerView: GADBannerView) {
+      print("bannerViewDidDismissScreen")
+    }
 }
